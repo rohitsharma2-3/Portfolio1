@@ -20,7 +20,7 @@ const Contact = () => {
         }).then((res) => res.json());
 
         if (res.success) {
-            alert(res.message)
+            event.target.reset()
         }
     };
     return (
