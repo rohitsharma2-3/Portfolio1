@@ -40,7 +40,7 @@ const Navbar = () => {
             </ul>
             <div className='flex gap-5 items-center'>
                 {/* <button className='pb-1 md:pb-0'><img src={MoonIcon} alt="" className='w-6 h-6 object-contain' /></button> */}
-                <a href="#" className='border border-black px-4 py-1.5 rounded-2xl hidden lg:block'>Connect</a>
+                <a   href="https://mail.google.com/mail/?view=cm&fs=1&to=mern.rohitsharma@gmail.com&su=Let's%20Connect&body=Hi%20Rohit%2C%20I%20wanted%20to%20connect%20with%20you."className='border border-black px-4 py-1.5 rounded-2xl hidden lg:block'>Connect</a>
                 <button className='block md:hidden cursor-pointer transition-transform hover:scale-110' onClick={OpenMenu}><i className="fa-solid fa-bars text-2xl"></i></button>
             </div>
 

@@ -17,7 +17,7 @@ const Projects = () => {
           <div className="flex justify-center">
             <ul className="flex flex-wrap justify-center gap-6">
               {[
-                { src: Project7, alt: '', link: 'https://verifiedvillaa.netlify.app/' },
+                { src: Project7, alt: '', link: 'https://veriifiedvilla.netlify.app/' },
                 { src: Project8, alt: '', link: 'https://zerodha2-2.onrender.com/' },
                 { src: Project1, alt: '', link: 'https://stellar-griffin-clothing.netlify.app/' },
                 { src: Project2, alt: '', link: 'https://food-delivery-49.netlify.app/' },

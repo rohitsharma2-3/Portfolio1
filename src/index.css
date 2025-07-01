@@ -5,3 +5,9 @@
     font-family: "Libertinus Mono", monospace;
     scroll-behavior: smooth;
 }
+
+@media (max-width: 640px) {
+    .footer{
+        font-size: 13px;
+    }
+}

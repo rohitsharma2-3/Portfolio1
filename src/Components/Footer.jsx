@@ -9,14 +9,14 @@ const Footer = () => {
             </div>
             <div className='w-10/12 mx-auto'>
                 <hr className="border-t-2 border-gray-300 dark:border-gray-700 mt-10" />
-                <div className='flex justify-between items-center mt-10'>
-                    <p>&copy; Rohit Sharma. All right reserved</p>
-                    <ul className='flex gap-5 mb-5'>
-                        <li><a href="#">Github</a></li>
-                        <li><a href="#">Linkedin</a></li>
-                    </ul>
-                </div>
 
+                <div className='flex justify-between flex-col md:flex-row items-start mt-10'>
+                    <p className='footer'>&copy; Rohit Sharma. All right reserved</p>
+                    <div className='flex gap-5 items-center mb-5'>
+                        <p><a className='footer' href="https://github.com/rohitsharma2-3">Github</a></p>
+                        <p><a className='footer' href="https://www.linkedin.com/in/rohit-sharma-a8545b336/">Linkedin</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     )
